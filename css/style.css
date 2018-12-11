@@ -1,0 +1,59 @@
+/*Tamaño del body*/
+body, html {
+height: 100%;
+width: 100%;
+margin: 0px;
+padding: 0px;
+}
+/*Porcentaje que ocupa la pagina a lo ancho*/
+#main {
+height: 80%;
+display: -webkit-flex;
+display: flex;
+flex-flow: row;
+}
+/*Porcentage que ocupa a lo largo*/
+#main2{
+  background: purple;
+flex: 1 6 67%;
+order: 1;
+}
+/*Posicion de ambos*/
+header, nav {
+display: block;
+min-height: 10%;
+background: #FC6;
+}
+/*Cambiando el color al nav*/
+nav {
+background: blue;
+}
+/*Hemos colocado aside a la izquierda y le hemos reducido su tamaño en porcentaje*/
+#main aside {
+background: #CCF;
+flex: 1 6 33%;
+order: 1;
+}
+/*Tamaño del article*/
+#main article {
+background: #CFC;
+height: 90%;
+}
+/*Tamaño del header*/
+header, footer {
+display: block;
+min-height: 10%;
+background: #FC6;
+}
+
+/*
+#main article {
+background: #CFC;
+flex: 3 1 70%;
+order: 2;
+}
+
+
+/*
+
+/* canvia la distribució de la plana posant el nav davall del header, i el aside a l'esquerra de l'article i el footer, el footer el mantenim a baix :) */
